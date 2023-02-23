@@ -1,0 +1,10 @@
+let Nombre = "Federico";
+let Apellido = "Nicoletti";
+let Estudiante = `${Nombre} ${Apellido}`;
+let estudianteMayus = Estudiante.toUpperCase();
+let estudianteMinus = Estudiante.toLowerCase();
+let estudianteLength = Estudiante.length;
+let firstLetterName = Nombre.slice(0, 1);
+let lastLetterSurname = Apellido.slice(8, 9);
+let EstudianteSticky = Estudiante.trim();
+let isName = Estudiante.includes("Federico");
