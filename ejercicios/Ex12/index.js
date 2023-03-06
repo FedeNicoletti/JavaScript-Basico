@@ -1,11 +1,11 @@
 const logger = require('./logger')
 
-logger.info("Hola soy un mensaje de info");
-logger.warn("Hola soy un mensaje de warn");
-logger.error("Hola soy un mensaje de error");
+function showError() {
+  throw new Error("showError function");
+}
 
 try {
-
-} catch (error) {
-    logger.error("Hola soy un mensaje de error");
+  showError();
+} catch (e) {
+  logger.log("error", e.toString());
 }
