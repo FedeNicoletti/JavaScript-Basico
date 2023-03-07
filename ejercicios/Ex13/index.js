@@ -1,5 +1,3 @@
-/* 
-- Modifica el último console.log del entrypoint index.js para devolver el resultado en color verde */
 import {suma, multiplica} from './controller.js';
 import {Chalk} from 'chalk';
 
